@@ -1,0 +1,2 @@
+https://www.reddit.com/r/all.rss,redditall,https://www.reddit.com/r/pics/comments/191trjo/the_man_who_lunged_at_a_las_vegas_judge_back_in/
+https://rss.nytimes.com/services/xml/rss/nyt/Golf.xml,nytgolf,https://www.nytimes.com/2023/12/14/business/pga-tour-liv-golf-saudi-board.html
