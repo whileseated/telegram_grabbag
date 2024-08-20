@@ -56,7 +56,7 @@ The script performs the following actions:
 
 ## Configuration
 
-You will need to configure the following variables in both scripts:
+You will need to add these values to the configuration file called 'config_repost_vids.py' 
 
 - `api_id`: Your Telegram API ID
 - `api_hash`: Your Telegram API hash
@@ -81,7 +81,7 @@ python3 repost_three_messages_to_video_channel.py
 
 ## Troubleshooting
 
-- **Authentication errors**: Make sure your `api_id`, `api_hash`, and `phone_number` are correct.
+- **Authentication errors**: Make sure your `api_id`, `api_hash`, and `phone_number` (with int'l prefix) are correct.
 - **Invalid chat title or username**: Double-check that the `chat_title_or_username` matches the exact title or username of the chat.
 - **Telethon errors**: If you encounter errors from the Telethon library, ensure that you have the latest version installed.
 

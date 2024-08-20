@@ -1,12 +1,7 @@
 from telethon import TelegramClient
 import asyncio
 from telethon.errors import UsernameNotOccupiedError, ChatIdInvalidError
-
-# Replace these with your own values
-api_id = ''
-api_hash = ''
-phone_number = ''
-chat_title_or_username = ''  # Replace with chat title or name
+from config_repost_vids import api_id, api_hash, phone_number, chat_title_or_username
 
 async def get_video_message_ids():
     client = TelegramClient('session', api_id, api_hash)

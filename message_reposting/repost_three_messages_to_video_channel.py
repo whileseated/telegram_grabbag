@@ -3,13 +3,7 @@ from telethon import TelegramClient
 import asyncio
 from telethon.errors import UsernameNotOccupiedError, ChatIdInvalidError
 from telethon.tl.functions.messages import DeleteMessagesRequest
-
-# Replace these with your own values
-api_id = ''
-api_hash = ''
-phone_number = ''
-chat_title_or_username = ''  # Replace with chat title or name
-message_id_file = 'message_ids.txt'  # Text file containing message IDs
+from config_repost_vids import api_id, api_hash, phone_number, chat_title_or_username, message_id_file
 
 async def repost_and_delete_messages():
     client = TelegramClient('session', api_id, api_hash)
